@@ -24,7 +24,7 @@ function sendWhatsAppMessage($conn, $userId, $userPhone, $message) {
     // --- INTEGRASI REAL WA (FONNTE) ---
     // Pastikan nomor target ($userPhone) valid (08xx atau 62xx)
     
-    $token = "Lfb8FTgn7SfGrsMpyWCe"; // <--- Token Device (Updated)
+    $token = "RxdUMc8HiigUsJgDNS1F"; // <--- Token Device (Updated)
     
     if ($userPhone) {
         $curl = curl_init();
